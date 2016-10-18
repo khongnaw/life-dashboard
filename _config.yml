@@ -1,3 +1,5 @@
 markdown: redcarpet
 baseurl: /life-dashboard
 exclude: ['README.md']
+gems: ['jekyll-github-metadata']
+repository: khongnaw/life-dashboard
