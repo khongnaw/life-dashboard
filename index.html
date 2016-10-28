@@ -2,35 +2,26 @@
 layout: default
 ---
 <div class="container">
-<div class="row">
-
-    <div class="col m8 offset-m2 ">
-        <canvas id="chartMy2"></canvas>
-    </div>
-
-</div>
-<div class="row">
-    <div class="col s12">
-        <h1>Life Dashboard</h1>
-        <div class="progress" style="height: 20px;">
-            <div class="determinate" style="width: 10%"></div>
+    <div class="row">
+        <h1 class="teal-text text-accent-4">Life Dashboard</h1>
+        <div class="hide-on-small-only col m8 offset-m2" style="margin-bottom: 2%; margin-top: -4%">
+            <canvas id="chartMy2"></canvas>
         </div>
-        <h5>20 of 85 years - 23% complete</h5>
-        <p>
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Click me!</a>
-        </p>
-
-        <div id="modal1" class="modal">
-            <div class="modal-content">
-              <h4>Hello There!</h4>
-              <p>Is it possible to travel faster than light?</p>
-            </div>
-            <div class="modal-footer">
-              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">One Day!</a>
-              <a class="waves-effect btn-flat"><i class="material-icons waves-light right">cloud</i>Nah</a>
-              <a class="waves-effect btn-flat"><i class="material-icons waves-light right">cloud</i>Not possible!</a>
-            </div>
-         </div>
+        <div class="col s12">
+            <h5>20 of 85 years - 23% complete</h5>
+             <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Click me!</a>
+        </div>
     </div>
 </div>
+
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>Hello There!</h4>
+        <p>Is it possible to travel faster than light?</p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">One Day!</a>
+        <a class="waves-effect btn-flat"><i class="material-icons waves-light right">cloud</i>Nah</a>
+        <a class="waves-effect btn-flat"><i class="material-icons waves-light right">cloud</i>Not possible!</a>
+    </div>
 </div>
