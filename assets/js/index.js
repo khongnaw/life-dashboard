@@ -24,7 +24,8 @@ var config = {
      options: {
           responsive: true,
           legend: {
-               position: 'top',
+               display:false
+               //position: 'top',
           },
           title: {
                display: true
@@ -32,14 +33,20 @@ var config = {
           },
           animation: {
                animateScale: true,
-               animateRotate: true
+               animateRotate: true,
+               animateScale: true
           }
      }
 };
 
 window.onload = function() {
 
-     var ctx = document.getElementById("chartMy1").getContext("2d");
-     window.myDoughnut = new Chart(ctx, config);
+     // var ctx = document.getElementById("chartMy1").getContext("2d");
+     // window.myDoughnut = new Chart(ctx, config);
 
+     var ctx2 = document.getElementById("chartMy2").getContext("2d");
+     window.myDoughnut = new Chart(ctx2, config);
+
+     // var ctx3 = document.getElementById("chartMy3").getContext("2d");
+     // window.myDoughnut = new Chart(ctx3, config);
 };
