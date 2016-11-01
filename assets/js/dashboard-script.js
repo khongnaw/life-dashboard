@@ -11,6 +11,8 @@ $(document).ready(function(){
 
      setInterval(stateMachine, 100);
 
+     $('.carousel').carousel();
+
      $('.modal-trigger').leanModal();
 
      $('.btn-add-pt').mousedown(function() {
