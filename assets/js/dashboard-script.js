@@ -20,6 +20,9 @@ $(document).ready(function(){
           fCurrentThis = this;
           fMousePressed = true;
      })
+     $('.btn-add-pt').on("tap", "p", function() {
+          add_progress(this);
+     })
      $('.btn-add-pt').mouseup(function() {
           fMousePressed = false;
      })
@@ -27,6 +30,9 @@ $(document).ready(function(){
           fCurrentState = eStates.Substracting;
           fCurrentThis = this;
           fMousePressed = true;
+     })
+     $('.btn-minus-pt').on("tap", "p", function() {
+          subtrct_progress(this);
      })
      $('.btn-minus-pt').mouseup(function() {
           fMousePressed = false;
